@@ -14,7 +14,7 @@
 <body>
    <nav class="menu">
        <ul>
-           <li><a href="projekt1.html">Kezdőoldal</a></li>
+           <li><a href="kezdo.html">Kezdőoldal</a></li>
            <li><a href="szolgaltatasok.html">Szolgáltatások</a></li>
            <li><a href="arak.html">Árak</a></li>
            <li><a href="referencia.html">Referenciák</a></li>
@@ -24,6 +24,16 @@
    </nav>
 
    <h1>Kapcsolat</h1>
-    
+   <div class="arajanlat">
+    <caption>Szolgáltatásunk egyedi jellege miatt érdemes lehet személyre szabott árajánlatot kérni.</caption>
+        <form method="POST">
+            <input type="text" name="valodinev" placeholder="Név" required/> <br/><br/>
+            <input type="text" name="telefonszám" placeholder="Telefonszám" required/> <br/><br/>
+             <textarea name="feedback" rows="5" cols="50" maxlength="200"
+             placeholder="Kérem írja meg az Ön által tapasztalt problémát(max. 200 karakter)!"></textarea> <br/> <br/>
+             <input type="reset" name="reset-btn" value="Adatok törlése"/>
+             <input type="submit" value="Árajánlat kérése"/>
+            </form>    
+</div>
 </body>
 </html>
