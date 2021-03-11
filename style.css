@@ -1,3 +1,17 @@
+.fejlec{
+    display: grid;
+    grid-template-columns: auto;
+    height: 200px;
+    align-items: center;
+    padding-left: 30px;
+    font-size: xx-large;
+    background: brown;
+    background-image: url(../img/background3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 html{
     background-color: antiquewhite;
 }
