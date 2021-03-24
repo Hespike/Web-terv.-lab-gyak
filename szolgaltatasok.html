@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="hu">
-<head>
-    <title>A legjobb beadandó</title>
-        <meta charset="UTF-8"/>
-        <meta name="author" content="Deli Dorottya és Sárdi András Mihály"/>
-        <meta name="description" content="Web tervezés lab. gyak. beadandó"/>
-        <meta name="keywords" content="webtervezés,webterv,HTML,CSS,beadandó"/>
-        <link rel="icon" href="img/icon.png"/>
-        <link rel="stylesheet" href="css/style.css"/>
-        <link rel="stylesheet" href="css/menubar.css">
+    <head>
+        <title>A legjobb beadandó</title>
+            <meta charset="UTF-8"/>
+            <meta name="author" content="Deli Dorottya és Sárdi András Mihály"/>
+            <meta name="description" content="Web tervezés lab. gyak. beadandó"/>
+            <meta name="keywords" content="webtervezés,webterv,HTML,CSS,beadandó"/>
+            <link rel="icon" href="img/icon.png"/>
+            <link rel="stylesheet" href="css/style.css"/>
+            <link rel="stylesheet" href="css/menubar.css">
+            
 
-</head>
-<body>
-      <div class="fejlec">
+    </head>
+    <body>
+        <header>
             <!--Menüsor létrehozása-->
             <nav class="menu">
                 <ul>
@@ -24,14 +25,31 @@
                     <li><a href="kapcsolat.html">Kapcsolat</a></li>
                 </ul>
             </nav>
-        </div>
-
-   <h1>Szolgáltatás</h1>
-   <div class="szoveg">
-    <p>Az alábbi lebegőkeret az egyik partnercégünk által elérhető szolgáltatásokat tartalmazza, az Árak fülnél megtalálható tevékenységek mellett  ezekkel a feladatokkal is foglalkozik cégünk.</p>
-</div>
-
-   <iframe src="https://www.villanyszerelo-budapesten.hu/szolgaltatasok.htm" width="1000" height="600"></iframe>
-    
-</body>
+        </header>
+        <main>
+                <section class="tartalom">
+                    <h1>Szolgáltatások</h1>
+                    <p>Az alábbi lebegőkeret az egyik partnercégünk által elérhető szolgáltatásokat tartalmazza, az Árak fülnél megtalálható tevékenységek mellett  ezekkel a feladatokkal is foglalkozik cégünk.</p>
+                    <iframe src="https://www.villanyszerelo-budapesten.hu/szolgaltatasok.htm" width="1000" height="600"></iframe>     
+                </section> <!--tartalom vége-->
+                <!--Oldalsáv létrehozása-->
+                <aside>
+                    <h3>Szolgáltatásaink</h3>
+                    <br>
+                    <ul>
+                        <li>Alap villanyszerelési munkák</li>
+                        <li>Villanytűzhely bekötés, javítás</li>
+                        <li>S.O.S. villanybajok</li>
+                    </ul>
+                </aside><!--Oldalsáv vége-->
+                <!--Lábléc létrehozása-->
+                <footer class="lablec">
+                    <p class="szoveg_lab">Megbízható, precíz szakembert keres? Keressen minket!</p>
+                    <br>
+                    <hr>
+                    <br>
+                    <p class="lab">Copyright &copy Deli Dorottya és Sárdi András Mihály, 2021</p>
+                </footer> <!--lábléc vége-->
+        </main>
+    </body>
 </html>
