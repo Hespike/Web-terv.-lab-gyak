@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
 
 nav{
@@ -17,8 +18,8 @@ nav{
 
 .menu ul li {
     list-style: none; 
-    display: inline-block; 
-    float: inline-start; 
+    display: inline-block;
+     
     line-height: 100px;
 }
 
@@ -48,3 +49,4 @@ nav{
 .menu ul li a:hover:not(.active){
     background-color: #ddd;
 }
+
