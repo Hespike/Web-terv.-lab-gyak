@@ -4,7 +4,7 @@
 */
 
 /*Bekezdés formázása*/
-p{
+.szoveg{
     display: block;
     margin-top: 1em;
     margin-bottom: 1em;
@@ -15,8 +15,9 @@ p{
 
 /*A táblázatok egymás mellett jelennek meg*/
 .tablazat_alap, .tablazat_tuzhely{
+    display: inline;
     float: left;
-    /*display: inline-block;*/
+    
 }
 
 /*Címsor formázása, lekerekített kerettel*/
@@ -67,7 +68,7 @@ caption{
 
 /*Tűzhely táblázatra vonatkozó részek*/
 .tablazat_tuzhely{
-   margin: 20px;
+    margin: 20px;
     text-align: center; 
 }
 
