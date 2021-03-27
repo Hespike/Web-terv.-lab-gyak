@@ -20,6 +20,12 @@ header{
     background-position: center;
 }
 
+a:link { color: green; }
+a:visited { color: gray; }
+a:hover { color: orange; }
+a:active { color: red; }
+
+
 main{
     margin: 0 auto;
     width: 100%;
@@ -71,6 +77,16 @@ footer{
     padding: 20px;
     margin-top: 20px;
     height: 1%;  
+}
+.eltunik{
+    width: 100px; height: 100px;
+        background-color: tomato;
+        transition: width 2s, height 2s;     
+        transition-timing-function: ease-in
+        a:link { color: green; }
+        a:visited { color: gray; }
+        a:hover { color: orange; }
+        a:active { color: red; }
 }
 
 /*Lábléc első szövegének a formázása*/
