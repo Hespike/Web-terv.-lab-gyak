@@ -37,6 +37,7 @@ main{
 .bemutatkozas{
     padding: 0;
     margin: 20px;
+    text-shadow: 1px 3px 3px blue;
 }
 
 .bemutatkozas h1{
