@@ -32,22 +32,27 @@ main{
     padding: 20px 0;
     margin: 0 0 0 5%;
     display: inline;
+    letter-spacing: 1px;
+    white-space:inherit;
 }
 
 .bemutatkozas{
     padding: 0;
     margin: 20px;
     text-shadow: 1px 1px 1px blue;
+    letter-spacing: 2px;
 }
 
 .bemutatkozas h1{
     text-align: center;
+    letter-spacing: 3px;
 }
 
 /*Oldalsáv formázása*/
 aside{
     float: right;
-    position: static;
+    position: relative;
+    left: 0px;
     padding: 20px 0;
     margin: 0;
     display: inline;
@@ -71,6 +76,8 @@ a:link {
   a:active {
     color: red;
   }
+
+
 /*Lábléc formázása*/
 footer{
     position: static;
